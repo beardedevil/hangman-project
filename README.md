@@ -1,1 +1,3 @@
-# hangman-project
+# The Gallows is a relativly simple game of hangman
+When started up a random word will be taken from the wordlist, the hint is the number of underscores showing you how many letters are in the word. Enter in a letter and press enter, if the letter is in the word it will change the underscore to the letter guessed. However if the letter is not in the word a piece of the hangman will appear. You are given 6 tries before it is Game Over for the hangman. 
+The theme of the game is that the player is a Priest trying to save the men headed for the Gallows, if you guess the word correctly you save the man but if you should fail... well its lights out for the man.
