@@ -1,3 +1,36 @@
-# The Gallows is a relativly simple game of hangman
-When started up a random word will be taken from the wordlist, the hint is the number of underscores showing you how many letters are in the word. Enter in a letter and press enter, if the letter is in the word it will change the underscore to the letter guessed. However if the letter is not in the word a piece of the hangman will appear. You are given 6 tries before it is Game Over for the hangman. 
-The theme of the game is that the player is a Priest trying to save the men headed for the Gallows, if you guess the word correctly you save the man but if you should fail... well its lights out for the man.
+THE GALLOWS
+
+Welcome to The Gallows, a fun and challenging word-guessing game implemented in Python. In this game, you'll need to save a poor soul from the gallows by guessing the correct letters of a hidden word.
+
+FEATURES
+
+Randomly selects a word from a predefined list.
+Visual representation of the gallows as you make incorrect guesses.
+Keeps track of guessed letters and lives remaining.
+
+INSTALLATION
+
+To run the game, you'll need Python installed on your machine. You can download Python from python.org.
+Clone this repository or download the script file.
+Ensure you have a wordslist.py file that contains a list of words as a Python list named words.
+
+USAGE
+
+Open a terminal or command prompt.
+Navigate to the directory containing the script.
+Run the script using Python:
+
+GAMEPLAY
+
+You will be greeted with a welcome message.
+The game will display the current state of the gallows and the clue (hidden word).
+Input one letter at a time to guess the word.
+You have a limited number of incorrect guesses (lives).
+The game ends when you either guess the word or run out of lives.
+
+CODE STRUCTURE
+
+poor_soul(lives): Displays the gallows based on the number of incorrect guesses.
+clue(hint): Displays the current state of the hidden word.
+freedom(answer): Displays the completed word when the game is won.
+main(): The main game loop that handles gameplay, user input, and game logic.
