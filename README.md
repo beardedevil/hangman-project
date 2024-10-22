@@ -26,7 +26,7 @@ You will be greeted with a welcome message.
 The game will display the current state of the gallows and the clue (hidden word).
 Input one letter at a time to guess the word.
 You have a limited number of incorrect guesses (lives).
-The game ends when you either guess the word or run out of lives.
+The game will ask if you would like to try again y/n(depending on how you answer the game will repeat or it will end).
 
 CODE STRUCTURE
 
