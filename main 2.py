@@ -75,6 +75,19 @@ def main():
             print("Off to the Gallows with him!")
             playing = False
 
+    try_again()
+
+def try_again():
+    while True:
+        response = input("Would you like to try to save another soul? (y/n): ").lower()
+        if response == 'y':
+            main()
+            break
+        elif response == 'n':
+            print("Fare thee well, Priest!")
+            break
+        else:
+            print("Enter 'y' or 'n'.")
 
 if __name__ == "__main__":
     main()
