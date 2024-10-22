@@ -33,4 +33,5 @@ CODE STRUCTURE
 poor_soul(lives): Displays the gallows based on the number of incorrect guesses.
 clue(hint): Displays the current state of the hidden word.
 freedom(answer): Displays the completed word when the game is won.
-main(): The main game loop that handles gameplay, user input, and game logic.
+main(): The main game loop that handles gameplay and user input.
+try_again(): repeats main() or ends the game
